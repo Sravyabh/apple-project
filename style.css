@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body,html{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    width: 100%;
+  }
+  #navbar{
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background-color: black;
+  }
+  .nav-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  }
+  .nav-list>li{
+    margin-inline: 20px;
+  }
+  .nav-list a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+  .search-icon{
+    color: white;
+  }
+  .categories{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 120px;
+  }
+  .categories>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 20px;
+  }
+  .new{
+    color: red;
+    font-size: small;
+  }
+  
+  #hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  #hero>div{
+    margin-bottom: 20px;
+  }
+  .hero-new{
+    color: #6E6E73;
+    font-size: 17px;
+  }
+  div>h4{
+    font-size: 21px;
+  }
+  div>h2{
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 45px;
+  }
+  .hero-buy-link{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .hero-buy-btn{
+    background-color: #0071E3;
+    border: none;
+    padding:8px 16px;
+    border-radius: 20px;
+    color: white;
+  }
+  .hero-learnmore-link{
+    text-decoration: none;
+    color: #0071E3;
+  }
